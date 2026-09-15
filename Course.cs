@@ -11,5 +11,10 @@ class Course
         string Name = name;
         int MaxSeats = maxSeats;
     }
-}
 
+
+public override string ToString()
+    {
+    return $"Kursen {Name} har {MaxSeats}platser.";
+    }
+}

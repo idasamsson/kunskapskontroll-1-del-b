@@ -1,0 +1,15 @@
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\bin\Debug\net10.0\kunskapskontroll-1-del-b.exe
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\bin\Debug\net10.0\kunskapskontroll-1-del-b.deps.json
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\bin\Debug\net10.0\kunskapskontroll-1-del-b.runtimeconfig.json
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\bin\Debug\net10.0\kunskapskontroll-1-del-b.dll
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\bin\Debug\net10.0\kunskapskontroll-1-del-b.pdb
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\obj\Debug\net10.0\kunskapskontroll-1-del-b.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\obj\Debug\net10.0\kunskapskontroll-1-del-b.AssemblyInfoInputs.cache
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\obj\Debug\net10.0\kunskapskontroll-1-del-b.AssemblyInfo.cs
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\obj\Debug\net10.0\kunskapskontroll-1-del-b.csproj.CoreCompileInputs.cache
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\obj\Debug\net10.0\kunskapskontroll-1-del-b.sourcelink.json
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\obj\Debug\net10.0\kunskapskontroll-1-del-b.dll
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\obj\Debug\net10.0\refint\kunskapskontroll-1-del-b.dll
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\obj\Debug\net10.0\kunskapskontroll-1-del-b.pdb
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\obj\Debug\net10.0\kunskapskontroll-1-del-b.genruntimeconfig.cache
+C:\Users\idasa\Documents\MAI26HA\Programmering och objektorientered utveckling i C#\Kod\kunskapskontroll-1-del-b\obj\Debug\net10.0\ref\kunskapskontroll-1-del-b.dll
