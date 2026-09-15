@@ -8,13 +8,13 @@ class Course
 
     public Course(string name, int maxSeats)
     {
-        string Name = name;
-        int MaxSeats = maxSeats;
+        Name = name;
+        MaxSeats = maxSeats;
     }
 
 
 public override string ToString()
     {
-    return $"Kursen {Name} har {MaxSeats}platser.";
+    return $"Kursen {Name} har {MaxSeats} platser.";
     }
 }
