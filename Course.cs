@@ -4,12 +4,21 @@ class Course
 
     public int MaxSeats;
 
-    public List<Course> Students = [];
+    public List<Student> Students = [];
 
     public Course(string name, int maxSeats)
     {
         Name = name;
         MaxSeats = maxSeats;
+    }
+
+      public void Enroll(Student students)
+    {
+        if(!Students.Contains(student))
+        {
+            Students.Add(student);
+            student.Join(this);
+        }
     }
 
 
