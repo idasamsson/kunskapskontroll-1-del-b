@@ -11,11 +11,12 @@ class Student(string name)
             Courses.Add(course);
             course.Enroll(this);  
         }
+        
     }
 
     public override string ToString()
     {
-        return $"Studenten heter {Name} och läser kurserna {String.Join(", ", Courses)}.";
+        return $"Studenten heter {Name} och läser kurserna {String.Join(", ", Courses.Select(c => c.Name))}.";
     }
 }
 
