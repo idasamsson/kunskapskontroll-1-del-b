@@ -14,6 +14,15 @@ class Student(string name)
         
     }
 
+    public void Leave(Course course)
+    {
+        if (Courses.Contains(course))
+        {
+           course.Remove(this);
+           Courses.Remove(course);
+        }
+    }
+
     public override string ToString()
     {
         return $"Studenten heter {Name} och läser kurserna {String.Join(", ", Courses.Select(c => c.Name))}.";

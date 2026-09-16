@@ -16,14 +16,31 @@ class Course
     {
         if(!Students.Contains(student))
         {
-            Students.Add(student);
-            student.Join(this);
+            if(Students.Count >= MaxSeats)
+            {
+                Console.WriteLine("Kursen är tyvärr full.");
+            }
+            else
+            {
+                Students.Add(student);
+                student.Join(this);
+            }
+        }
+        
+    }
+
+    public void Remove(Student student)
+    {
+        if (Students.Contains(student))
+        {
+            Students.Remove(student);
+            student.Leave(this);
         }
     }
 
 
 public override string ToString()
     {
-    return $"Kursen {Name} har {MaxSeats} platser.";
+    return $"{Name}, {Students.Count}/{MaxSeats} platser.";
     }
 }
