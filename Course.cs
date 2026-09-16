@@ -38,9 +38,18 @@ class Course
         }
     }
 
-
-public override string ToString()
+    public void RollCall()
     {
-    return $"{Name}, {Students.Count}/{MaxSeats} platser.";
+        Console.WriteLine($"Studenter som läser {this.Name} är:");
+
+        foreach (Student student in Students)
+        {
+            Console.WriteLine(student.Name);
+        }
     }
+
+    public override string ToString()
+        {
+        return $"{Name}, {Students.Count}/{MaxSeats} platser.";
+        }
 }

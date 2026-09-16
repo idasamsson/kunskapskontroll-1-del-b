@@ -22,3 +22,4 @@ matematik.Remove(student6);
 Console.WriteLine(student6);
 //Console.WriteLine(engelska);
 Console.WriteLine(matematik);
+matematik.RollCall();
