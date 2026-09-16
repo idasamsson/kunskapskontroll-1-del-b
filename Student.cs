@@ -23,6 +23,15 @@ class Student(string name)
         }
     }
 
+        public void Schedule()
+    {
+        Console.WriteLine($"Kurser som {this.Name} läser är:");
+
+        foreach (Course course in Courses)
+        {
+            Console.WriteLine(course.Name);
+        }
+    }
     public override string ToString()
     {
         return $"Studenten heter {Name} och läser kurserna {String.Join(", ", Courses.Select(c => c.Name))}.";
