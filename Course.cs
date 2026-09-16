@@ -12,7 +12,7 @@ class Course
         MaxSeats = maxSeats;
     }
 
-      public void Enroll(Student students)
+      public void Enroll(Student student)
     {
         if(!Students.Contains(student))
         {

@@ -4,18 +4,18 @@ class Student(string name)
 
     List<Course> Courses = [];
 
-     public void Join(Course courses)
+     public void Join(Course course)
     {
         if(!Courses.Contains(course))
         {
             Courses.Add(course);
-            course.Enroll(this);
+            course.Enroll(this);  
         }
     }
 
     public override string ToString()
     {
-        return $"Studenten heter {Name}.";
+        return $"Studenten heter {Name} och läser kurserna {String.Join(", ", Courses)}.";
     }
 }
 

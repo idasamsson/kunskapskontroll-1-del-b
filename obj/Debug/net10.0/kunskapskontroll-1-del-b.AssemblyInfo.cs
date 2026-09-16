@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kunskapskontroll-1-del-b")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a999c53c4a3f06ef8ee7d2be580cef9ee4f87a7f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccb86979cfd4cca22cc463cb7ac0c7a478b4d447")]
 [assembly: System.Reflection.AssemblyProductAttribute("kunskapskontroll-1-del-b")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kunskapskontroll-1-del-b")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
