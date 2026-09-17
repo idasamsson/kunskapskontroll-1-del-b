@@ -10,17 +10,31 @@ Student student6 = new("Sam");
 Student student7 = new("Ing-Marie");
 Student student8 = new("Leif");
 
- student1.Join(engelska);
- student6.Join(historia);
- student6.Join(engelska);
- student3.Join(matematik);
- matematik.Enroll(student1);
- matematik.Enroll(student6);
-matematik.Remove(student6);
 
-//Console.WriteLine(student1);
-Console.WriteLine(student6);
-//Console.WriteLine(engelska);
-Console.WriteLine(matematik);
-matematik.RollCall();
+student1.Join(engelska);
+student1.Join(matematik);
+student1.Join(historia);
+student1.Join(engelska);
+
 student1.Schedule();
+engelska.RollCall();
+
+/*
+student2.Join(matematik);
+student3.Join(historia);
+matematik.Enroll(student4);
+engelska.Enroll(student5);
+historia.Enroll(student6);
+student7.Join(matematik);
+student8.Join(matematik);
+student3.Leave(historia);
+engelska.Remove(student1);
+student2.Join(engelska);
+historia.Enroll(student2);
+student5.Join(engelska);
+*/
+//student2.Schedule();
+//matematik.RollCall();
+
+
+

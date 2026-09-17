@@ -6,12 +6,15 @@ class Student(string name)
 
      public void Join(Course course)
     {
-        if(!Courses.Contains(course))
+        if (Courses.Contains(course))
         {
-            Courses.Add(course);
-            course.Enroll(this);  
+           Console.WriteLine("Du går redan den här kursen.");
         }
-        
+        else if (!Courses.Contains(course))
+            {
+                Courses.Add(course);
+                course.Enroll(this); 
+            }
     }
 
     public void Leave(Course course)
@@ -20,6 +23,10 @@ class Student(string name)
         {
            course.Remove(this);
            Courses.Remove(course);
+        }
+        else if (!Courses.Contains(course))
+        {
+            Console.WriteLine("Du går inte den här kursen.");
         }
     }
 
