@@ -2,29 +2,23 @@ class Student(string name)
 {
     public string Name = name;
 
-    List<Course> Courses = [];
+    public List<Course> Courses = [];
 
      public void Join(Course course)
     {
-        if (Courses.Contains(course))
+        if (!Courses.Contains(course))
         {
-           Console.WriteLine("Du går redan den här kursen.");
+            course.Enroll(this); 
         }
-        else if (!Courses.Contains(course))
-            {
-                Courses.Add(course);
-                course.Enroll(this); 
-            }
     }
 
     public void Leave(Course course)
     {
         if (Courses.Contains(course))
         {
-           course.Remove(this);
-           Courses.Remove(course);
+           course.Remove(this);   
         }
-        else if (!Courses.Contains(course))
+        else
         {
             Console.WriteLine("Du går inte den här kursen.");
         }

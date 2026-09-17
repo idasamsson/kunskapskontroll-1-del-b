@@ -12,37 +12,35 @@ class Course
         MaxSeats = maxSeats;
     }
 
-      public void Enroll(Student student)
+      public bool Enroll(Student student)
     {
-        if(!Students.Contains(student))
+        if(Students.Contains(student))
         {
-            if(Students.Count >= MaxSeats)
+            return false;
+        }
+        if(Students.Count >= MaxSeats)
             {
                 Console.WriteLine("Kursen är tyvärr full.");
+                return false;
             }
-            else if (Students.Contains(student))
-            {
-                Console.WriteLine("Du går redan den här kursen.");
-            }
-            else
-            {
-                Students.Add(student);
-                student.Join(this);
-            }
-        }
-        
+
+        Students.Add(student);
+        student.Courses.Add(this);
+        return true;
     }
 
-    public void Remove(Student student)
+    public bool Remove(Student student)
     {
-        if (Students.Contains(student))
+        if(Students.Contains(student))
         {
             Students.Remove(student);
-            student.Leave(this);
+            student.Courses.Remove(this);
+            return true;
         }
-        else if (!Students.Contains(student))
+        else
         {
             Console.WriteLine("Studenten läser inte den här kursen.");
+            return false;
         }
     }
 
