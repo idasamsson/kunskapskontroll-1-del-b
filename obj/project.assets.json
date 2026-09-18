@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\idasa\\Documents\\MAI26HA\\Programmering och objektorientered utveckling i C#\\Kod\\kunskapskontroll-1-del-b\\kunskapskontroll-1-del-b.csproj",
+      "projectUniqueName": "G:\\Min enhet\\MAI26HA\\Programmering och objektorientered utveckling i C#\\Kod\\kunskapskontroll-1-del-b\\kunskapskontroll-1-del-b.csproj",
       "projectName": "kunskapskontroll-1-del-b",
-      "projectPath": "C:\\Users\\idasa\\Documents\\MAI26HA\\Programmering och objektorientered utveckling i C#\\Kod\\kunskapskontroll-1-del-b\\kunskapskontroll-1-del-b.csproj",
+      "projectPath": "G:\\Min enhet\\MAI26HA\\Programmering och objektorientered utveckling i C#\\Kod\\kunskapskontroll-1-del-b\\kunskapskontroll-1-del-b.csproj",
       "packagesPath": "C:\\Users\\idasa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\idasa\\Documents\\MAI26HA\\Programmering och objektorientered utveckling i C#\\Kod\\kunskapskontroll-1-del-b\\obj\\",
+      "outputPath": "G:\\Min enhet\\MAI26HA\\Programmering och objektorientered utveckling i C#\\Kod\\kunskapskontroll-1-del-b\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\idasa\\AppData\\Roaming\\NuGet\\NuGet.Config"
